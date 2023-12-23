@@ -4,6 +4,14 @@
  */
 public class Coins {
 	public static void main(String[] args) {
-		// Put your code here
+		
+		int dividend = Integer.parseInt(args[0]);
+		int divisor = 25; 
+  
+        int quarters = dividend / divisor; 
+        int cents = dividend % divisor; 
+  
+        System.out.println(" Use " + quarters + " quarters" + " and " + cents + " cents"); 
+    
 	}
 }
